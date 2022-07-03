@@ -6,7 +6,9 @@
     -webkit-overflow-scrolling: touch;
     /* transition: 0.2s ease-in-out; */
 }
-
+a {
+    text-decoration: none;
+}
 /* General Styling */
 body {
     font-family: "Montserrat";
@@ -95,7 +97,7 @@ div.gallery img {
 }
 
 /* Animation */
-#C2 b {
+.red-blue-shift {
     animation: bookmarks 3.5s ease-in-out 0s infinite alternate both;
 }
 @keyframes bookmarks {
