@@ -47,7 +47,7 @@
 }.links.disc:hover {
     border: 4px inset #7289DA;
     transition: 0.3s ease-in-out;
-}.links.tweet:hover {
+}.links.mail:hover {
     border: 4px inset rgb(0, 110, 169);
     transition: 0.3s ease-in-out;
 }
