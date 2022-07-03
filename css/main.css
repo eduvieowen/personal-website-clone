@@ -61,7 +61,7 @@ article {
 }
 /* Styling gallery pictures */
 .content-pics {
-    /* border: solid; */
+    border: solid;
     display: flex;
     margin: 30px 0;
 }
@@ -72,8 +72,9 @@ div.gallery img {
     border-radius: 20px;
 }
 .responsive {
-    /* border: solid rebeccapurple; */
-    float: left;
+    border: solid rebeccapurple;
+    /* float: left; */
+    display: flex;
     justify-content: space-evenly;
     padding: 6px;
     margin-bottom: 6px;
