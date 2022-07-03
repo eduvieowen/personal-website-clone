@@ -20,6 +20,11 @@ body {
     padding: 3vw;
 }
 
+/* Utility Classes */
+.current {
+    background-color: rgb(34, 97, 0)!important;
+}
+
 /* Styling titles/bookmarks */
 .chp {
     display: inline-block;
