@@ -14,7 +14,7 @@ make the navigation links into a menu button */
       padding: 0;
   }
   #header {
-      background: url(https://images.hdqwalls.com/download/mario-chilling-mp-2160x3840.jpg) no-repeat;
+      background: url(../media/cozy_background.gif) no-repeat;
       background-size: cover;
       max-width: 100%;
       max-height: 100vh;
