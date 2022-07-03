@@ -1,0 +1,83 @@
+/* Main nav styling */
+#stickyNav {
+    background-color: rgba(0, 110, 169, 0.799);
+    width: 100%;
+    position: fixed;
+    transition: 0.5s;
+    border-bottom: 2px solid whitesmoke;
+    z-index: 1;
+}
+
+/*Styling home section*/
+#home {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    float: left;
+    
+    width: auto;
+    height: 100%;
+    letter-spacing: 1.5px;
+    
+    border-left: 10px solid rgb(182, 0, 0);
+    padding-right: 10px;
+    padding-left: 10px;
+    /* margin-left: 30px; */
+    z-index: -1;
+} 
+#home a {
+    text-decoration: none;
+}
+#home a:visited {
+    color: white;
+}
+#home img {
+    width: 25px;
+}
+#home p {
+    /* text-shadow: 3px 3px 1px rgb(5, 12, 33);     */
+    text-shadow: 4px 4px 1px rgb(5, 12, 33);
+
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+
+    margin-top: 2px;
+    /* padding: 0px 10px; */
+    border-radius: 10px;
+                                                
+}
+#home p:hover{
+    color: rgb(182, 0, 0);
+}
+
+/* Styling the top navigation bar */
+.topnav {
+    /* margin-right: 15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    float: right;
+    overflow: hidden;
+    font-size: 1rem;
+}
+
+/* Styling the topnav links */
+.topnav a {    
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    background-color: rgb(140, 0, 0);
+    color: rgb(242, 242, 242);
+
+}
+
+/* Change topnav links color on hover */
+.topnav a:hover{
+    background-color: rgb(34, 97, 0) !important;
+    /* font-weight: bold; */
+    color: whitesmoke;
+}

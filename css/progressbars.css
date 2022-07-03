@@ -1,0 +1,50 @@
+/*Styling Progress Bars*/
+#progress-bars {
+    display: flex;
+    /* border: solid red; */
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.progress-bar {
+    background-color: white;
+    border: 5px outset rgb(160, 160, 160);
+    border-radius: 30px;    
+    margin: 20px 0;
+    text-align: center;
+  }
+.progress-bar-active {
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.bar-progress {
+    position: relative;
+    color: white;
+}
+.t {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    top:20%;
+    bottom: 25%;
+    right: 25%;
+    left: 25%;
+}
+
+#red-progress {
+    background-color: darkred;
+}
+#green-progress {
+    background-color: green;
+}
+#blue-progress {
+    background-color: darkblue;      
+}
+#pink-progress {
+    background-color:rgb(224, 35, 227);      
+}
+#yellow-progress {
+    background-color: rgb(217, 156, 0);      
+}
