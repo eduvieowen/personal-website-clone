@@ -2,4 +2,4 @@
 A portfolio website used to showcase my collection of records, accomplishments, skills, experiences, and attributes.
 
 ## Live Link https://eduvieowen.netlify.app/
-![website](https://user-images.githubusercontent.com/103185065/163112194-38555b2a-8995-4ca3-9034-b08f44fc08cf.png)
+![image](https://user-images.githubusercontent.com/103185065/177635733-ae08726a-e425-4f82-aeaf-554e56c4daf4.png)
