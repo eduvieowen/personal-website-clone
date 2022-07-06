@@ -91,7 +91,7 @@ a {
 
 }
 .inside-card {
-    display: flex;
+    /* display: flex; */
     /* justify-content: center; */
     background-color: gray;
     border: 5px inset rgb(160, 160, 160);

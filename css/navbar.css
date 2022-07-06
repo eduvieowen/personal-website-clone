@@ -57,7 +57,7 @@
     /* margin-right: 15px; */
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     position: relative;
     float: right;
     overflow: hidden;
