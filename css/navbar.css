@@ -8,7 +8,7 @@
     z-index: 1;
 }
 
-/*Styling home section*/
+/*Styling home logo*/
 #home {
     display: flex;
     align-items: center;
@@ -28,9 +28,9 @@
 #home a {
     text-decoration: none;
 }
-#home a:visited {
+/* #home a:visited {
     color: white;
-}
+} */
 #home img {
     width: 25px;
 }

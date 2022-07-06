@@ -17,15 +17,14 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Mulish'>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/img.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/navbars.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/left-column.css">
     <link rel="stylesheet" href="css/progressbars.css">
-    <link rel="stylesheet" href="css/right-column.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/resp.css">
+
 
     <script type="text/javascript" src="scripts/index.js"></script>    
   </head>
@@ -47,15 +46,12 @@
       <div class="topnav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <!-- <a href="#C2">Porfolio</a> -->
         <a href="works.html" class="current">Works</a>
-        <!-- <a href="#C4">Socials</a> -->
         <a href="contact.html">CONTACT</a>
       </div>
     </div>
 
     <div id="header">
-
       <div class="welcome-message">
 
         <p id="firstP">Hi, I'm <b class="red-bold">Ederuvie Owen</b> Udusegbe</p><br>
@@ -85,8 +81,8 @@
             </div>  
                       
             <div class="contact-links">
-              <a href="mailto:eduvieouu@gmail.com?subject=SERVICE REQUEST" target="_blank">
-                <img src="media/email-black.png" alt="Email" title="Email"> 
+              <a href="https://twitter.com/eduvieowen" target="_blank">
+                <img src="media/twitter-white.png" alt="Twitter" title="Twitter"> 
               </a>
             </div>
 
@@ -94,119 +90,124 @@
         </p>
         
       </div>
-      
     </div>
 
-    <main id="mainPage">
-      <div class="row">
+    <main>
+      <div id="projects" class="flex-center">
 
-        <div class="contact">
+        <div class="card" id="C3">
 
-          <div class="card" id="C3">
+          <main>
+            <header><h2 class="chp">MY PROJECTS</h2></header>
 
-            <main>
-              <header><h2 class="chp">MY WORKS</h2></header>
+            <section class="prjt-gallery">
 
-              <!-- <div id="worksContainer">
-                <div class="work-img-container">
-                  <img id="workImg" src="media/im-working-on-it-im-trying.gif" title="Coming Soon...">
-                </div>
-                <p style="text-align: center;"><i>_Stay Tuned For More_</i></p>
-              </div>
-              <br> -->
-
-              <section id="iframe">
-
+              <article class="bdr">
+                
                 <header><h3>Inglorious Gunther Hub</h3></header>
                 <br>
 
                 <article>
-
-                    <iframe src = "https://ingloriousghub.netlify.app/" name="no_a" width = "100%" height="500px">
+                    <iframe src = "https://ingloriousghub.netlify.app/" name="no_a">
                     </iframe>
-                    <br>
     
-                    <section class="link-btns" style="margin: 30px 0px; display:flex; justify-content: space-evenly;">               
+                    <section class="link-btns">               
                       <span>
-                        <a href="https://ingloriousghub.netlify.app/" target="no_a"><button style="color:black; padding: 5px; cursor: pointer;">Home</button></a>
+                        <a href="https://ingloriousghub.netlify.app/" target="_blank"><button class="main-btn">Home</button></a>
                       </span>
                     </section>
-                    
                 </article>
-                <hr>
-                <br>
+
+              </article>
+              <article>
 
                 <header><h3>App-Gallery</h3></header>
                 <br>
-
+  
                 <article>
-
-                    <iframe src = "https://apps-gallore.netlify.app/" name="no_a" width = "100%" height="500px">
+  
+                    <iframe src = "https://apps-gallore.netlify.app/" name="no_a">
                     </iframe>
                     <br>
     
-                    <section class="link-btns" style="margin: 30px 0px; display:flex; justify-content: space-evenly;">               
+                    <section class="link-btns">               
                       <span>
-                        <a href="https://apps-gallore.netlify.app/" target="no_a"><button style="color:black; padding: 5px; cursor: pointer;">Home</button></a>
+                        <a href="https://apps-gallore.netlify.app/" target="no_a"><button class="main-btn">Home</button></a>
                       </span>
                     </section>
                     
                 </article>
-                <hr>
-                <br>
+
+              </article>
+              <article>
 
                 <header><h3>Hotel Dubois</h3></header>
                 <br>
-
+  
                 <article>
-
-                    <iframe src = "https://hotel-dubois.netlify.app/" name="no_a" width = "100%" height="500px">
+  
+                    <iframe src = "https://hotel-dubois.netlify.app/" name="no_a"></iframe>
                     </iframe>
                     <br>
     
-                    <section class="link-btns" style="margin: 30px 0px; display:flex; justify-content: space-evenly;">               
+                    <section class="link-btns">               
                       <span>
-                        <a href="https://hotel-dubois.netlify.app/" target="no_a"><button style="color:black; padding: 5px; cursor: pointer;">Home</button></a>
+                        <a href="https://hotel-dubois.netlify.app/" target="no_a"><button class="main-btn">Home</button></a>
                       </span>
                     </section>
                     
                 </article>
-                <hr>
-                <br>
 
-              <!-- <section class="iframe">
+              </article>
 
-                <header><h3 style="margin-top: 20px;">Try these in the meantime | <i>iFrame.tv</i></h3></header>
-                <br>
-                <article><p>Click any button to interact</p></article>
+            <!-- <div id="worksContainer">
+              <div class="work-img-container">
+                <img id="workImg" src="media/im-working-on-it-im-trying.gif" title="Coming Soon...">
+              </div>
+              <p style="text-align: center;"><i>_Stay Tuned For More_</i></p>
+            </div>
+            <br> -->
+            
+            <!-- <section class="iframe">
 
-                <iframe src="https://hackertyper.net?autoplay=1" name="no_b" width="100%" height="500px">
-                </iframe>
-                <br> 
+              <header><h3 style="margin-top: 20px;">Try these in the meantime | <i>iFrame.tv</i></h3></header>
+              <br>
+              <article><p>Click any button to interact</p></article>
 
-                <section class="link-btns" style="margin: 30px 0px; display:flex; justify-content: space-evenly;">            
-                  <span>
-                    <a href="https://imgflip.com/tag/random" target="no_b"><button style="color:black; padding: 5px; cursor: pointer;">ImgFlip</button></a>
-                  </span>   
+              <iframe src="https://hackertyper.net?autoplay=1" name="no_b" width="100%" height="500px">
+              </iframe>
+              <br> 
 
-                  <span style="display: flex; justify-content: center;">
-                    <a href="https://hackertyper.net?autoplay=1" target="no_b"><button style="color:black; padding: 5px; cursor: pointer;">HOME</button></a>
-                  </span>     
+              <section class="link-btns" style="margin: 30px 0px; display:flex; justify-content: space-evenly;">            
+                <span>
+                  <a href="https://imgflip.com/tag/random" target="no_b"><button class="main-btn">ImgFlip</button></a>
+                </span>   
 
-                  <span>
-                    <a href="https://www.fakefilegenerator.com/generate-file.php" target="no_b"><button style="color:black; padding: 5px; cursor: pointer;">File Generator</button></a>
-                  </span>
-                  
-                </section>
+                <span style="display: flex; justify-content: center;">
+                  <a href="https://hackertyper.net?autoplay=1" target="no_b"><button class="main-btn">HOME</button></a>
+                </span>     
 
-              </section> -->
+                <span>
+                  <a href="https://www.fakefilegenerator.com/generate-file.php" target="no_b"><button class="main-btn">File Generator</button></a>
+                </span>
+                
+              </section>
 
-            </main>
-          </div>
-        
-        <div class="copyright"><a href="https://eduvieowen.netlify.app/"><img src="media/f.ico"></a> Copyright © 2022 Eduvie O.U. </div>
+            </section> -->
+
+          </main>
+          
+        </div>
+
       </div>
     </main>
+    
+    <footer>
+      <div class="copyright">
+        <a href="https://eduvieowen.netlify.app/">
+          <img src="media/f.ico"></a> Copyright © 2022 Eduvie O.U. 
+      </div>
+    </footer>
 
   </body>
 </html>

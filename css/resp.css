@@ -2,16 +2,26 @@
 /* Responsive layout - when the screen is less than 800px wide, 
 make the two columns stack on top of each other instead of next to each other &
 make the navigation links into a menu button */
-@media screen and (max-width: 920px) {
-  .leftcolumn, .rightcolumn {
+/* @media screen and (max-width: 920px) {
+  .leftcolumn, .rightcolumn, .leftcolumn-home, .rightcolumn-home {
     width: 100%;
     padding: 0;
+  }
+} */
+@media screen and (max-width: 920px) {
+  .row {
+    display: block;
+  }
+  .leftcolumn, .rightcolumn {
+    width: 100vw;
+    /* padding: 0; */
+
   }
 }
 @media screen and (max-width: 767px) {
   .leftcolumn, .rightcolumn {   
-      width: 100%;
-      padding: 0;
+      width: 100vw;
+      /* padding: 0; */
   }
   #header {
       background: url(../media/cozy_background.gif) no-repeat;
@@ -142,7 +152,7 @@ make the navigation links into a menu button */
 } */
 
 /* pictures */
-@media only screen and (max-width: 700px) {
+/* @media only screen and (max-width: 700px) {
     .responsive {
       width: 50%;
       margin: 6px 0;
@@ -154,6 +164,6 @@ make the navigation links into a menu button */
       width: 100%;
     }
   }
-  
+   */
 
 

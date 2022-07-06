@@ -1,53 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    /* transition: 0.2s ease-in-out; */
+}
+body {
+    font-family: "Montserrat";
+    text-rendering: optimizeLegibility !important;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased !important;
+    overflow-x: hidden;
+    background-color: black;
+}
+a {
+    text-decoration: none;
+}
 
-/* My Works */
-#worksContainer {
-    margin: 30px 0px;
+/* Utility Classes */
+.current {
+    background-color: rgb(34, 97, 0)!important;
 }
-.work-img-container {
-    display: flex;    
-    justify-content: center;
-    align-items: center;
-    margin: 15px 0px;
+.red-bold {
+    color: rgb(226, 0, 0);
 }
-#workImg {
-    max-width: 100%;
-    max-height: 300px;
-    /* border: 10px inset ; */
-    border-radius: 20px;
+.blue-bold {
+    color: rgb(0, 166, 255);
+}
+article {
+    line-height: 1.5;
+    text-align: justify;
+}
+.main-btn {
+    color:black; 
+    padding: 5px; 
+    /* cursor: pointer; */
 }
 
-/* Follow Me */
-#C4 h3 {
-    color: rgb(221, 0, 0);
-    margin-bottom: 20px;
+/* General Styling */
+.row {
+    display: flex;
+    /* justify-content: space-evenly; */
 }
-#linksContainer {
-    position: relative;
-    /* display: inline-block; */
-    left: 5%;
-    width: 90%;
-    /* border: solid; */
+.leftcolumn {   
+    width: 40%;
+    padding: 0 20px;
+
 }
-.links {
+.rightcolumn {
+    width: 60%;
+    padding: 0 20px;
+}
+
+/* Styling titles/bookmarks */
+.chp {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    background-color: rgb(169, 0, 0);
+    border: 5px outset;
+}
+
+/* Card effect for sections */
+.card {
+    border: solid rgba(255, 255, 255, 0.1);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.07);
+    margin: 50px 0;
+    padding: 80px 50px;
+
+}
+.inside-card {
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 2px solid;
-    border-radius: 40px;
-    margin: 20px 0px;
-    padding: 3px;
-    border: 4px outset rgb(160, 160, 160);
-    background-color: rgb(0, 0, 0);
-    transition: 0.3s ease-in-out;
+    background-color: #dddddd;
+    border: 5px inset rgb(160, 160, 160);
+    border-radius: 8px;    
+    margin-top: 30px;
+    padding: 25px 0;
 }
-.links.inst:hover {
-    border: 4px inset rgb(221, 42, 123);
-    transition: 0.3s ease-in-out;
-}.links.disc:hover {
-    border: 4px inset #7289DA;
-    transition: 0.3s ease-in-out;
-}.links.mail:hover {
-    border: 4px inset rgb(0, 110, 169);
-    transition: 0.3s ease-in-out;
+
+/* Styling for MY PROJECTS */
+/* .flex-center {
+    display: flex;
+    justify-content: center;
+} */
+#projects {
+    padding: 0 20px;
+}
+.prjt-gallery {
+    /* border: solid red; */
+    padding: 30px 0;
+    display: grid;
+    justify-items: center;
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 3fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 2rem;
+}
+iframe {
+    /* border: 1px solid green; */
+    height: 500px;
+    width: 600px;
+}
+.link-btns {
+    text-align: center;
+    margin-top: 0.5rem;
+    border-bottom: 4px #dddddd solid;
+    padding-bottom: 20px;
 }

@@ -1,0 +1,46 @@
+
+/* Styling gallery pictures */
+.content-pics {
+    background-color: #dddddd;
+    border: 5px outset rgb(160, 160, 160);
+    border-radius: 30px;    
+    margin: 20px 0;
+
+  }
+.gallery {
+    border: solid red;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0.5rem;
+}
+.gallery img {
+    width: 30%;
+}
+.img-container {
+    border: #dddddd solid;
+    margin-bottom: 20px;   
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* grid-gap: 0.5rem; */
+}
+.prfl img {
+    width: 50%;
+}
+
+/* Animation */
+.red-blue-shift {
+    animation: bookmarks 3.5s ease-in-out 0s infinite alternate both;
+}
+@keyframes bookmarks {
+    from{color: rgb(169, 0, 0);}
+    to{color: rgb(0, 110, 169);}
+}
+/* Clearing floats after the columns */
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
