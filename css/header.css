@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
 
-    background: url(../media/cozy_background.gif) no-repeat fixed;
+    background: url(../media/zelda_pixel.png) no-repeat fixed;
     background-size: cover;
     background-position: center;
 
@@ -40,6 +40,13 @@
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 20px;
+    /* border: 2px solid whitesmoke; */
+}
+.contact-links{
+    background: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+
 }
 .contact-links a img{
     width: 40px;

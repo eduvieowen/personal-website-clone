@@ -12,7 +12,7 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased !important;
     overflow-x: hidden;
-    background-color: black;
+    background-color: rgb(157, 173, 157);
 }
 a {
     text-decoration: none;
@@ -28,7 +28,7 @@ a {
 .blue-bold {
     color: rgb(0, 166, 255);
 }
-article {
+.article {
     line-height: 1.5;
     text-align: justify;
 }
@@ -36,6 +36,9 @@ article {
     color:black; 
     padding: 5px; 
     /* cursor: pointer; */
+}
+.center {
+    text-align: center;
 }
 
 /* General Styling */
@@ -62,24 +65,38 @@ article {
     background-color: rgb(169, 0, 0);
     border: 5px outset;
 }
+#C2 .chp {
+    background-color:rgb(34, 97, 0);
+    color: whitesmoke;
+    border: 5px inset;
+
+}
 
 /* Card effect for sections */
 .card {
     border: solid rgba(255, 255, 255, 0.1);
     color: white;
-    background-color: rgba(255, 255, 255, 0.07);
+    background-color: rgb(59, 47, 34);
     margin: 50px 0;
     padding: 80px 50px;
 
 }
+.card-sm {
+    border: solid rgba(255, 255, 255, 0.1);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.07);
+    margin: 25px;
+    padding: 20px 0;
+
+}
 .inside-card {
     display: flex;
-    justify-content: center;
-    background-color: #dddddd;
+    /* justify-content: center; */
+    background-color: gray;
     border: 5px inset rgb(160, 160, 160);
     border-radius: 8px;    
     margin-top: 30px;
-    padding: 25px 0;
+    padding: 1rem 0;
 }
 
 /* Styling for MY PROJECTS */
@@ -95,14 +112,14 @@ article {
     padding: 30px 0;
     display: grid;
     justify-items: center;
-    /* grid-template-columns: repeat(auto-fit, minmax(400px, 3fr)); */
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap: 2rem;
 }
+
+/* Styling for iFRAMES */
 iframe {
-    /* border: 1px solid green; */
-    height: 500px;
-    width: 600px;
+    height: 80vh;
+    width: 100%;
 }
 .link-btns {
     text-align: center;
